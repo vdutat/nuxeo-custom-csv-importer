@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<component name="com.acme.ecm.csv.core.operation.customcsvimportoperation" version="1.0">
+
+  <require>org.nuxeo.ecm.csv.core.operation.contrib</require>
+
+  <extension point="operations" target="org.nuxeo.ecm.core.operation.OperationServiceComponent">
+    <operation replace="true" class="com.acme.ecm.csv.core.operations.CustomCSVImportOperation"/>
+  </extension>
+
+</component>

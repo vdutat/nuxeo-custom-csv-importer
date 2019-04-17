@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.acme.ecm.csv</groupId>
+    <artifactId>nuxeo-custom-csv-importer-parent</artifactId>
+    <version>1.0.0</version>
+  </parent>
+  <artifactId>nuxeo-custom-csv-importer-jsf</artifactId>
+  <name>Nuxeo custom csv importer jsf</name>
+  <description />
+
+  <dependencies>
+    <dependency>
+      <groupId>org.jboss.seam</groupId>
+      <artifactId>jboss-seam</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.nuxeo.ecm.core</groupId>
+      <artifactId>nuxeo-core-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.nuxeo.ecm.platform</groupId>
+      <artifactId>nuxeo-platform-webapp-base</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.nuxeo.ecm.platform</groupId>
+      <artifactId>nuxeo-platform-ui-web</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.acme.ecm.csv</groupId>
+      <artifactId>nuxeo-custom-csv-importer-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.nuxeo.ecm.csv</groupId>
+      <artifactId>nuxeo-csv-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.nuxeo.ecm.csv</groupId>
+      <artifactId>nuxeo-csv-jsf</artifactId>
+    </dependency>
+  </dependencies>
+</project>
